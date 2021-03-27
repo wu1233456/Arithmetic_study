@@ -1,5 +1,5 @@
 package sort;
-//优先队列,可以更高效地删除最大元素和插入元素。
+//优先队列,可以更高效地删除最大元素和插入元素。调整的过程没有使用递归调用，而是使用while循环
 public class MaxPQ {
     private int[] a;
     private int N = 0;//a[0]不使用
